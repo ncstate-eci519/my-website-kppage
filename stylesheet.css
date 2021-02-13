@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script&family=EB+Garamond&family=Roboto:wght@100&display=swap');
+
+
+html{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'EB Garamond', sans-serif;
+    color: #ff8552;
+}
+
+h1{
+    font-size: 1.75rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+.header{
+    padding: 50px;
+    text-align: center;
+    background: #297373;
+    color: #85FFC7;
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    color: #2F4550;
+    font-family:'Roboto', serif;
+}
+
+ul{
+    font-family: 'Roboto', serif;
+    color: #2F4550;
+}
+
+a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
