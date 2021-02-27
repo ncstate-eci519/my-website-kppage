@@ -1,78 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script&family=EB+Garamond&family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat&display=swap');
 
 html{
-    font-size: 18px;
-    background-color: #fffdf7;
+    font-size: 16px;
 }
 
 header{
     background-color: #020402;
-    position: fixed;
     width: 100%;
     height: 100px;
     top: 0;
 }
 
-ul{
-    position: absolute;
-    top: 25px;
-    left: 110px;
+a{
+    color: #C6DEC6;
+    font-family: "Montserrat";
 }
 
-li {
-    float: left;
-    list-style-type: none;
-  }
-  
-  li a {
-    display: inline;
-    color: #C6DEC6;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover{
-      color: #758173;
-  }
+a:hover{
+    color: #758173;
+    font-family: "Montserrat";
+}
 
 h2{
-    font-family: 'EB Garamond', serif;
-    color: #A9C5A0;
-    font-size:1.25rem;
-}
-
-.headerfix{
-    margin-top: 110px;
-}
-
-.intro{
-    margin-top: 110px;
-    font-size: 1.75rem;
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
-    text-align: center;
+    font-family: "EB Garamond";
     color: #A9C5A0;
 }
 
-.description{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.05rem;
-    text-align: center;
+.cardbackground{
+    background-color: #758173;
+}
+
+h3{
+    color: #C6DEC6;
+    font-family:"EB Garamond";
+}
+
+h5 {
+    color: #A9C5A0;
+    font-family:"EB Garamond";
+}
+
+.buttonbackground{
+    background-color: #A9C5A0;
+    border: #A9C5A0;
+    font-family: "Montserrat";
+}
+
+.buttonbackground:hover{
+    background-color: #758173;
+    border: #758173;
+    font-family: "Montserrat";
 }
 
 p{
-    color: #2F4550;
-    font-family:'Roboto', sans-serif;
-}
-
-@media print{
-	header{
-		display: none;
-	}
-
-    ul{
-        display:none;
-    }
+    font-family: "Montserrat";
 }
