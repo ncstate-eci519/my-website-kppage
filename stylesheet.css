@@ -17,7 +17,7 @@ a{
 }
 
 a:hover{
-    color: #758173;
+    color: #A9C5A0;
     font-family: "Montserrat";
 }
 
@@ -35,31 +35,33 @@ h2{
 }
 
 h3 {
-    color: #A9C5A0;
+    color: #4F824F;
     font-family:"EB Garamond";
     font-size: 1.4rem;
 }
 
 .paragraphfix {
-    color: #A9C5A0;
+    color: #4F824F;
     font-family:"EB Garamond";
     font-size: 1.4rem;
 }
 
 .cardbackground{
-    background-color: #758173;
+    background-color: #020402;
 }
 
 .buttonbackground{
-    background-color: #A9C5A0;
-    border: #A9C5A0;
+    background-color: #020402;
+    border: #020402;
     font-family: "Montserrat";
+    color: #C6DEC6;
 }
 
 .buttonbackground:hover{
-    background-color: #758173;
-    border: #758173;
+    background-color: #C6DEC6;
+    border: #C6DEC6;
     font-family: "Montserrat";
+    color: #020402;
 }
 
 p{
