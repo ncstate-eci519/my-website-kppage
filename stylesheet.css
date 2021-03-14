@@ -37,16 +37,24 @@ li {
       color: #758173;
   }
 
+<<<<<<< Updated upstream
 h2{
     font-family: 'EB Garamond', serif;
     color: #A9C5A0;
     font-size:1.25rem;
+=======
+h1{
+    font-family: "EB Garamond";
+    color: #C6DEC6;
+    font-size: 2rem;
+>>>>>>> Stashed changes
 }
 
 .headerfix{
     margin-top: 110px;
 }
 
+<<<<<<< Updated upstream
 .intro{
     margin-top: 110px;
     font-size: 1.75rem;
@@ -54,6 +62,24 @@ h2{
     font-weight: bold;
     text-align: center;
     color: #A9C5A0;
+=======
+h2{
+    color: #C6DEC6;
+    font-family:"EB Garamond";
+    font-size: 1.75rem;
+}
+
+h3 {
+    color: #A9C5A0;
+    font-family:"EB Garamond";
+    font-size: 1.5rem;
+}
+
+.paragraphfix {
+    color: #A9C5A0;
+    font-family: "EB Garamond";
+    font-size: 24px;
+>>>>>>> Stashed changes
 }
 
 .description{
