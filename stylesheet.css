@@ -68,3 +68,7 @@ p{
     font-family: "Montserrat";
 }
 
+.hidden
+{
+   display: none
+}

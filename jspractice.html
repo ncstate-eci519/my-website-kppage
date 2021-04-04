@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kaitlin Page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script language="JavaScript" src=sample.js></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
+  </head>
+
+    <body>
+
+      <header class="row">
+        <div class="col-xs-12 col-md-2">
+          <a href="index.html"> <img src="logo.png" alt="Website Logo" width="90" height="90"><span class="sr-only">(Return Home)</span></a>
+        </div>
+       
+        <div class="col-xs-12 col-md-2 mt-4">
+          <a href="standard1.html">Standard 1</a>
+        </div>
+        <div class="col-xs-12 col-md-2 mt-4">
+          <a href="standard2.html">Standard 2</a>
+        </div>
+        <div class="col-xs-12 col-md-2 mt-4">
+          <a href="standard3.html">Standard 3</a>
+        </div>
+        <div class="col-xs-12 col-md-2 mt-4">
+          <a href="standard4.html">Standard 4</a>
+        </div>
+        <div class="col-xs-12 col-md-2 mt-4">
+          <a href="standard5.html">Standard 5</a>
+        </div>
+      </header>
+
+
+
+                <div class="card mt-5 mb-5">
+                  <div class="card-header cardbackground">
+                    <h1>Executive Summary <svg id="down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                      <svg id="up" class="hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                      </svg></h1>
+                  </div>
+                  <div class="card-body hidden">
+            
+                    <p class="card-text">In the state of North Carolina, Instructional Technology Facilitators (ITFs) are integral to the development, design, implementation and evaluation of technology and technology programs in school districts. ITFs work with a myriad of stakeholders from students and teachers to administrators and superintendents to ensure all learners receive an equitable education that will prepare them for the 21st century. The North Carolina Educator Effectiveness System (NCEES) rubric provides a clear set of standards and competencies that are essential for ITFs to possess in order to be successful and effective. Upon review, this portfolio will demonstrate I have acquired all the necessary competencies of an effective ITF as measured by the NCEES evaluation rubric. To navigate the portfolio, use the drop-down menu in the upper right-hand corner to view artifacts grouped by standard. To return home, click the artifacts link beside the dropdown menu.</p>
+                  </div>
+                </div>
+
+                <h2 class="cardbackground">What is Your Favorite EdTech Tool?</h2>
+                <h3>Vote</h3>
+                <form class="form-inline">
+                   <label class="sr-only" for="edtechtool">EdTech Tool</label>
+                  <select class="custom-select my-1 mr-sm-2" id="edtechtool">
+                    <option selected>Choose...</option>
+                    <option value="gsuite">GSuite</option>
+                    <option value="flipgrid">FlipGrid</option>
+                    <option value="seesaw">Seesaw</option>
+                    <option value="nearpod">Nearpod</option>
+                  </select>
+                   <button type="button" id="submit" class="btn btn-primary mb-2 buttonbackground">Submit</button>
+                </form>
+                <hr/>
+                <h3>Results</h3>
+                <canvas id="myChart" width="400" height="200"></canvas>
