@@ -2,6 +2,7 @@
 
 html{
     font-size: 16px;
+    font-family: "Montserrat";
 }
 
 header{
@@ -9,6 +10,7 @@ header{
     width: 100%;
     height: 100px;
     top: 0;
+    margin: 25px;
 }
 
 a{
@@ -23,7 +25,7 @@ a:hover{
 
 h1{
     font-family: "EB Garamond";
-    color: #C6DEC6;
+    color: #4F824F;
     font-size: 2rem;
 }
 
@@ -46,6 +48,13 @@ h3 {
     font-size: 1.4rem;
 }
 
+.img {
+    float: left;
+    padding: 25px;
+    height: 325px;
+    width: 250px;
+}
+
 .cardbackground{
     background-color: #020402;
 }
@@ -62,10 +71,6 @@ h3 {
     border: #C6DEC6;
     font-family: "Montserrat";
     color: #020402;
-}
-
-p{
-    font-family: "Montserrat";
 }
 
 .hidden
